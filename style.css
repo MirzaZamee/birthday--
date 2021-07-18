@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Otomanopee One', sans-serif;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+    background-color: #bc353b;
+    overflow-x: hidden;
+}
+.greet{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    color: #fff;
+}
+h1{
+    font-size: 74px;
+}
+h2{
+    text-align: center;
+    font-size: 74px;
+}
+.particles-js-canvas-el {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+.prottoy{
+    position: absolute;
+    top: 64%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    animation: animate 1s infinite;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(45deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.prottoy img{
+    width: 110%;
+    animation: width 1s infinite;
+}
+@keyframes width{
+    0%{
+        width: 120%;
+    }
+    50%{
+        width: 130%;
+    }
+    100%{
+        width: 120%;
+    }
+}
+.me{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-10%, -50%);
+    z-index: 2;
+    animation:  1s infinite;
+}
+@keyframes animate2{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(45deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.me img{
+    width: 57%;
+    animation: width2 1s infinite;
+}
+@keyframes width2{
+    0%{
+        width: 57%;
+    }
+    50%{
+        width: 67%;
+    }
+    100%{
+        width: 57%;
+    }
+}
+h3{
+    color: #ffe000;
+    text-align: center;
+    font-size: 74px;
+}
+.prithul{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-90%, -50%);
+    z-index: 2;
+}
+.prithul img{
+    
+width: 29%;
+animation: width3 1s infinite;
+}
+@keyframes width3{
+    0%{
+        width: 29%;
+    }
+    50%{
+        width: 33%;
+    }
+    100%{
+        width: 29%;
+    }
+}

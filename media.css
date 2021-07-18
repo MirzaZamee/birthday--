@@ -1,0 +1,64 @@
+@media(max-width:500px) and (min-width:0px){
+    h1, h2, h3 {
+        text-align: center;
+        font-size: 52px;
+    }
+    h2{
+        color: #ffe000;
+    }
+    h3{
+        color: #ffd8c1;
+        font-size: 44px;
+    }
+    @keyframes width2{
+        0%{
+            width: 50%;
+        }
+        50%{
+            width: 60%;
+        }
+        100%{
+            width: 50%;
+        }
+    }
+    @keyframes width3{
+        0%{
+            width: 45%;
+        }
+        50%{
+            width: 50%;
+        }
+        100%{
+            width: 45%;
+        }
+    }
+    @keyframes width{
+        0%{
+            width: 90%;
+        }
+        50%{
+            width: 100%;
+        }
+        100%{
+            width: 90%;
+        }
+    }
+    .prottoy {
+        top: 63%;
+        left: 26%;
+        transform: translate(-50%, -50%);
+        z-index: 3;
+    }
+    .prithul {
+        top: 20%;
+        left: 57%;
+        transform: translate(-90%, -50%);
+        z-index: 3;
+    }
+    .me {
+        top: 20%;
+        left: 63%;
+        transform: translate(-10%, -50%);
+        z-index: 3;
+    }
+}
