@@ -11,7 +11,7 @@ body{
 }
 .greet{
     position: absolute;
-    top: 43%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 3;
@@ -27,7 +27,7 @@ h2{
 .particles-js-canvas-el {
     position: absolute;
     top: 0;
-    z-index: 0;
+    z-index: 4;
 }
 .prottoy{
     position: absolute;
@@ -124,4 +124,10 @@ animation: width3 1s infinite;
     100%{
         width: 29%;
     }
+}
+audio{
+    left: 50%;
+    transform: translateX(-50%);
+    /* margin-bottom: 20px; */
+    opacity: 0;
 }

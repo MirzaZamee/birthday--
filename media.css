@@ -44,19 +44,19 @@
         }
     }
     .prottoy {
-        top: 63%;
+        top: 67%;
         left: 26%;
         transform: translate(-50%, -50%);
         z-index: 3;
     }
     .prithul {
-        top: 20%;
+        top: 13%;
         left: 57%;
         transform: translate(-90%, -50%);
         z-index: 3;
     }
     .me {
-        top: 20%;
+        top: 13%;
         left: 63%;
         transform: translate(-10%, -50%);
         z-index: 3;
